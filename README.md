@@ -32,6 +32,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <p>
   1. Virtual Network (VNet) Setup: Create a virtual network to ensure secure and isolated communication between your virtual machines.
+<img width="879" height="585" alt="image" src="https://github.com/user-attachments/assets/b58d882a-58b2-4c96-a448-be17ac0173a5" />
 
 
 </p>
