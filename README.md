@@ -58,6 +58,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <br />
 4. Client VM Deployment (Client1) and DNS Configuration: Deploy a Windows 10 Pro client virtual machine and configure its DNS settings to point to the domain controller's private IP.
+<img width="872" height="546" alt="image" src="https://github.com/user-attachments/assets/300c538f-f739-497b-82a4-8233e2c18cb1" />
 
 <br />
 5. Connectivity Test (Ping): Verify successful communication between the client and domain controller by performing a ping test to the DC's private IP address.
+<img width="847" height="514" alt="image" src="https://github.com/user-attachments/assets/ad4fae7b-e579-47c3-8d40-d0fd74632058" />
+
