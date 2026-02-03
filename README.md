@@ -6,9 +6,6 @@
 This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -24,18 +21,21 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Create a Resource Group: This foundational step involves setting up a container in Azure to hold all related resources for the Active Directory lab.
+- Create a Virtual Network (VNet): A VNet is established to provide a private network in Azure, allowing the virtual machines to communicate securely.
+- Deploy the Windows Server VM (DC1): A Windows Server 2022 virtual machine is deployed to serve as the domain controller, which will host Active Directory.
+- Configure DC1's Private IP Address to Static: The network interface card (NIC) of the domain controller VM is configured to use a static private IP address for stability.
+- Deploy and Configure Client VM (Client1): A Windows 10 Pro virtual machine is deployed to act as a client, and its DNS settings are configured to point to the DC1's private IP address.
+
 
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  1. Virtual Network (VNet) Setup: Create a virtual network to ensure secure and isolated communication between your virtual machines.
+
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 
