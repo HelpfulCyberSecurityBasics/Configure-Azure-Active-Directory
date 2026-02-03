@@ -62,5 +62,5 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <br />
 5. Connectivity Test (Ping): Verify successful communication between the client and domain controller by performing a ping test to the DC's private IP address.
-<img width="847" height="514" alt="image" src="https://github.com/user-attachments/assets/ad4fae7b-e579-47c3-8d40-d0fd74632058" />
+<img width="956" height="637" alt="image" src="https://github.com/user-attachments/assets/721853ac-a6de-4d8f-a18c-77c1eaadab2a" />
 
